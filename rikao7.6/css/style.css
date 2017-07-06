@@ -1,0 +1,51 @@
+body {
+    font-size: 0.12rem;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+}
+
+
+.content {
+    -webkit-flex: 1;
+    overflow-y: scroll;
+}
+
+.banner{
+    height: .85rem;
+    text-align: center;
+    line-height: 1.54rem;
+}
+.banner img{
+    width: 50%;
+
+}
+p{
+    text-align: center;
+    font-size: .15rem;
+}
+
+input{
+    border:none;
+    height: .5rem;
+    padding-left: .25rem;
+    width: 90%;
+    border-bottom: 1px solid #ccc;
+}
+.phone{
+    margin-top: .5rem;
+}
+.btn{
+    height: .4rem;
+    margin-top: .4rem;
+    margin-left: .15rem;
+    border-bottom: none;
+    border-radius: 5px;
+    background-color: #2ecc40;
+    color:#fff;
+
+}
+/*# sourceMappingURL=style.css.map */
